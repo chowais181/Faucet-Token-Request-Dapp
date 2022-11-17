@@ -7,7 +7,7 @@ const faucetAbi = [
       {
         internalType: "address",
         name: "tokenAddress",
-        type: "address",
+        type: "address",  
       },
     ],
     stateMutability: "payable",
@@ -19,7 +19,7 @@ const faucetAbi = [
       {
         indexed: true,
         internalType: "address",
-        name: "from",
+        name: "from",  
         type: "address",
       },
       {
